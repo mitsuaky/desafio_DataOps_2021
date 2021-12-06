@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "desafio_dataops_2021"
+version = "0.1.0"
+description = ""
+authors = ["Pármenas Haniel"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.4"
+pymongo = "^4.0"
+openpyxl = "^3.0.9"
+geopy = "^2.2.0"
+pycep-correios = "^5.0.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+ipykernel = "^6.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
